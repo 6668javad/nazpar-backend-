@@ -1,0 +1,7 @@
+build:
+  builder: NIXPACKS
+deploy:
+  startCommand: "node server.js"
+  numReplicas: 1
+  healthcheckPath: "/health"
+  healthcheckTimeout: 100ocalhost:5500
